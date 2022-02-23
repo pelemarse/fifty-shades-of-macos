@@ -1,5 +1,267 @@
 {
-	"extends": "Minimal.sublime-theme",
+	"extends": "Fifty Shades of MacOS.sublime-theme",
 	"variables": {},
-	"rules": []
+	"rules": [
+		//  ████████╗ █████╗ ██████╗ ███████╗
+		//  ╚══██╔══╝██╔══██╗██╔══██╗██╔════╝
+		//     ██║   ███████║██████╔╝███████╗
+		//     ██║   ██╔══██║██╔══██╗╚════██║
+		//     ██║   ██║  ██║██████╔╝███████║
+		//     ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚══════╝
+
+		// tabs set
+		{
+			"class": "tabset_control",
+			"layer0.tint": "hsla(242, 2%, 12%, 1.00)",
+			"layer1.tint": "hsla(179, 6%, 4%, 1.00)",
+		},
+		// tab inactive
+		{
+			"class": "tab_control",
+			"layer0.tint": "hsla(242, 2%, 12%, 1.00)",
+			"layer1.tint": "hsla(179, 6%, 4%, 1.00)"
+		},
+		// tab inactive - hover
+		{
+			"class": "tab_control",
+			"attributes": ["!selected","hover"],
+			"layer0.tint": "hsla(219, 4%, 18%, 1.00)"
+		},
+		// tab active
+		{
+			"class": "tab_control",
+			"attributes": ["selected"],
+			"layer0.inner_margin": 0,
+			"layer0.tint": "hsla(219, 3%, 21%, 1.00)",
+			"layer0.opacity": 1.0
+		},
+		// tab label
+		{
+			"class": "tab_label",
+			"fade": false,
+			"font.bold": false,
+			"font.size": 11,
+			"fg": "hsla(242, 3%, 92%, 1.00)",
+			"content_margin": [8, 0, 0, 0]
+		},
+		{
+			"class": "tab_label",
+			"parents": [{"class": "tab_control", "attributes": ["selected"]}],
+			"fg": "hsla(242, 3%, 92%, 1.00)"
+		},
+		{
+			"class": "tab_label",
+			"parents": [{"class": "tab_control", "attributes": ["!selected"]}],
+			"fg": "hsla(242, 1%, 65%, 1.00)"
+		},
+
+		// tab close button
+		{
+			"class": "tab_close_button",
+			"layer2.inner_margin": [0, 0],
+			"layer2.texture": "Theme - Fifty Shades of MacOS/textures/tab-close-hover-background.png",
+			"layer2.tint": "hsla(219, 2%, 35%, 1.00)",
+			"layer2.opacity": 0.0,
+			"layer3.inner_margin": [0, 0],
+			"layer3.texture": "Theme - Fifty Shades of MacOS/textures/tab-close.png",
+			"layer3.tint": "hsla(219, 2%, 69%, 1.00)",
+			"layer3.opacity": 0.0
+		},
+		// tab close button settings
+		{
+			"class": "tab_close_button",
+			"settings": ["show_tab_close_buttons"],
+			"content_margin": [8, 8]
+		},
+		// tab close button - tab hover
+		{
+			"class": "tab_close_button",
+			"parents": [{"class": "tabset_control", "attributes": ["hover"]}],
+			"layer3.opacity": 1.0
+
+		},
+		// tab close button - tab hover helper
+		{
+			"class": "tab_close_button",
+			"parents": [{"class": "tab_control", "attributes": ["!hover"]}],
+			"layer2.opacity": 0,
+			"layer3.opacity": 0
+		},
+		// Tab close button - hover
+		{
+			"class": "tab_close_button",
+			"attributes": ["hover"],
+			"layer2.opacity": 1.0,
+			"layer3.opacity": 1.0
+		},
+		// Tab close button - helpers
+		{
+			"class": "tab_close_button",
+			"parents": [{"class": "tab_control", "attributes": ["selected"]}],
+			"layer3.tint": "hsla(219, 2%, 69%, 1.00)",
+			"layer2.tint": "hsla(219, 2%, 35%, 1.00)",
+		},
+		{
+			"class": "tab_close_button",
+			"parents": [{"class": "tab_control", "attributes": ["!selected"]}],
+			"layer3.tint": "hsla(219, 2%, 69%, 1.00)",
+			"layer2.tint": "hsla(219, 2%, 32%, 1.00)",
+		},
+		// Tab close button - pressed
+		{
+			"class": "tab_close_button",
+			"settings": ["show_tab_close_buttons"],
+			"attributes": ["pressed"],
+			"layer2.tint": "hsla(198, 1%, 46%, 1.00)",
+			"layer3.tint": "hsla(180, 100%, 100%, 1.00)"
+		},
+		// Tab dirty button
+		{
+			"class": "tab_close_button",
+			"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+			"layer1.texture": "Theme - Fifty Shades of MacOS/textures/tab-dirty.png",
+			"layer1.tint": "hsla(0, 0%, 57%, 1.00)",
+			"layer1.opacity": 1.0,
+			"layer3.opacity": 0
+		},
+		{
+			"class": "tab_close_button",
+			"attributes": ["hover"],
+			"layer1.texture": "Theme - Fifty Shades of MacOS/textures/tab-dirty.png",
+			"layer1.tint": "hsla(219, 2%, 69%, 1.00)",
+			"layer3.opacity": 1.0
+		},
+
+		{
+			"class": "scroll_tabs_left_button",
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"layer0.opacity": 0.4,
+		},
+		{
+			"class": "scroll_tabs_left_button",
+			"attributes": ["hover"],
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"layer0.opacity": { "target": 0.8, "speed": 3.0, "interpolation": "smoothstep" },
+		},
+		{
+			"class": "scroll_tabs_right_button",
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"layer0.opacity": 0.4,
+			"layer1.tint": "hsla(179, 6%, 4%, 1.00)",
+		},
+		{
+			"class": "scroll_tabs_right_button",
+			"attributes": ["hover"],
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"layer0.opacity": { "target": 0.8, "speed": 3.0, "interpolation": "smoothstep" },
+		},
+
+
+				// Tab scrolling
+		{
+			"class": "scroll_tabs_left_button",
+			"layer0.tint": "hsla(242, 2%, 12%, 1.00)",
+			"layer1.tint": "hsla(179, 1%, 47%, 1.00)",
+		    "layer2.tint": "hsla(179, 6%, 4%, 1.00)"
+		},
+		{
+			"class": "scroll_tabs_left_button",
+			"attributes": ["hover"],
+			"layer0.tint": "hsla(219, 4%, 18%, 1.00)"
+		},
+		{
+			"class": "scroll_tabs_left_button",
+			"attributes": ["pressed"],
+			"layer0.tint": "hsla(242, 3%, 20%, 1.00)"
+		},
+		{
+			"class": "scroll_tabs_right_button",
+			"layer0.tint": "hsla(242, 2%, 12%, 1.00)",
+			"layer1.tint": "hsla(179, 1%, 47%, 1.00)",
+		    "layer2.tint": "hsla(179, 6%, 4%, 1.00)"
+		},
+		{
+			"class": "scroll_tabs_right_button",
+			"attributes": ["hover"],
+			"layer0.tint": "hsla(219, 4%, 18%, 1.00)"
+		},
+		{
+			"class": "scroll_tabs_right_button",
+			"attributes": ["pressed"],
+			"layer0.tint": "hsla(242, 3%, 20%, 1.00)"
+		},
+		{
+			"class": "new_tab_button",
+			"layer0.tint": "hsla(242, 2%, 12%, 1.00)",
+			"layer1.tint": "hsla(179, 1%, 47%, 1.00)",
+		    "layer2.tint": "hsla(179, 6%, 4%, 1.00)"
+		},
+		{
+			"class": "new_tab_button",
+			"attributes": ["hover"],
+			"layer0.tint": "hsla(219, 4%, 18%, 1.00)"
+		},
+		{
+			"class": "new_tab_button",
+			"attributes": ["pressed"],
+			"layer0.tint": "hsla(242, 3%, 20%, 1.00)"
+		},
+
+		{
+			"class": "show_tabs_dropdown_button",
+			"layer1.tint": "hsla(179, 1%, 47%, 1.00)",
+		    "layer2.tint": "hsla(179, 6%, 4%, 1.00)"
+		},
+		{
+			"class": "show_tabs_dropdown_button",
+			"attributes": ["hover"],
+			"layer0.tint": "hsla(219, 4%, 18%, 1.00)"
+		},
+		{
+			"class": "show_tabs_dropdown_button",
+			"attributes": ["pressed"],
+			"layer0.tint": "hsla(242, 3%, 20%, 1.00)"
+		},
+
+		//  ███████╗████████╗ █████╗ ████████╗██╗   ██╗███████╗
+		//  ██╔════╝╚══██╔══╝██╔══██╗╚══██╔══╝██║   ██║██╔════╝
+		//  ███████╗   ██║   ███████║   ██║   ██║   ██║███████╗
+		//  ╚════██║   ██║   ██╔══██║   ██║   ██║   ██║╚════██║
+		//  ███████║   ██║   ██║  ██║   ██║   ╚██████╔╝███████║
+		//  ╚══════╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚══════╝
+		//  ██████╗  █████╗ ██████╗
+		//  ██╔══██╗██╔══██╗██╔══██╗
+		//  ██████╔╝███████║██████╔╝
+		//  ██╔══██╗██╔══██║██╔══██╗
+		//  ██████╔╝██║  ██║██║  ██║
+		//  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝    
+
+		{
+			"class": "status_bar",
+			"layer0.tint": "hsla(219, 3%, 21%, 1.00)",
+			"layer1.tint": "hsla(179, 6%, 4%, 1.00)"
+		},
+		{
+			"class": "vcs_branch_icon",
+			"layer0.tint": "hsla(219, 2%, 59%, 1.00)"
+		},
+		{
+			"class": "label_control",
+			"fg": "hsla(219, 2%, 69%, 1.00)"
+		},
+		{
+			"class": "sidebar_button_control",
+			"layer0.tint": "hsla(219, 2%, 69%, 1.00)",
+		},
+		{
+			"class": "sidebar_button_control",
+			"attributes": ["hover"],
+			"layer0.tint": "hsla(242, 3%, 75%, 1.00)"
+		},
+		{
+			"class": "sidebar_button_control",
+			"attributes": ["pressed"],
+			"layer0.tint": "hsla(242, 3%, 89%, 1.00)"
+		}
+	]
 }
