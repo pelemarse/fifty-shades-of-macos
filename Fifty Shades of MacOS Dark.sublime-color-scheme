@@ -1,0 +1,19 @@
+{
+    "name": "Fifty Shades of MacOS Dark",
+    "author": "Pele Marse",
+    "variables":
+    {
+
+    },
+    "globals":
+    {
+        "foreground": "hsla(120, 0%, 87%, 1.00)",
+        "background": "hsla(225, 7%, 13%, 1.00)",
+       //real "background": "hsla(219, 5%, 12%, 1.00)",
+
+    },
+    "rules":
+    [
+
+    ]
+}
