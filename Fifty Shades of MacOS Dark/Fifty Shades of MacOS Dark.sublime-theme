@@ -243,5 +243,607 @@
 			"layer0.tint": "hsla(242, 3%, 89%, 1.00)"
 		},
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		// Text input field item
+		{
+			"class": "text_line_control",
+			"color_scheme_tint": "hsla(219, 3%, 21%, 1.00)",
+		},
+		// Quick panel background
+		{
+			"class": "overlay_control",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/quick-panel-back-dark.png",
+			//"layer1.texture": "Theme - Fifty Shades of MacOS/textures/quick-panel-back-inner-dark.png",
+		},
+		// Quick panel
+		{
+			"class": "quick_panel",
+			"layer0.tint": "hsla(119, 6%, 11%, 1.00)",
+			"dark_content": true
+		},
+		{
+			"class": "quick_panel_row",
+			"layer0.tint": "hsla(219, 3%, 21%, 1.00)",
+		},
+		{
+			"class": "quick_panel_row",
+			"attributes": ["selected"],
+			"layer0.tint": "hsla(216, 79%, 41%, 1.00)",
+			"layer0.opacity": 1.0,
+		},
+		{
+			"class": "quick_panel_label",
+			"fg": "hsla(242, 1%, 60%, 1.00)",
+			"match_fg": "hsla(242, 1%, 65%, 1.00)",
+			"selected_fg": "hsla(0, 0%, 100%, 1.00)",
+			"selected_match_fg": "hsla(0, 0%, 100%, 1.00)",
+
+		},
+		// Mini quick panel
+		{
+			"class": "mini_quick_panel_row",
+			"layer0.tint": "hsla(219, 3%, 21%, 1.00)",
+		},
+		{
+			"class": "mini_quick_panel_row",
+			"attributes": ["selected"],
+			"layer0.tint": "hsla(216, 79%, 41%, 1.00)",
+			"layer0.opacity": 1.0,
+		},
+		{
+			"class": "quick_panel_path_label",
+			"selected_fg": "hsla(179, 1%, 93%, 1.00)",
+			"fg": "hsla(179, 1%, 55%, 1.00)",
+			"link_color": "#878787",
+			"selected_match_fg": "hsla(0, 0%, 100%, 1.00)",
+			"match_fg": "hsla(242, 1%, 35%, 1.00)",
+		},
+		// Tooltip container
+		{
+			"class": "tool_tip_control",
+			"layer1.tint": "hsla(179, 6%, 4%, 1.00)",
+		},
+		// Tooltip content
+		{
+			"class": "tool_tip_label_control",
+			"color": "hsla(242, 0%, 45%, 1.00)"
+		},
+		// Sidebar container
+		{
+			"class": "sidebar_container",
+			"layer0.tint": "hsla(208, 6%, 16%, 1.00)",
+			"layer0.opacity": 1.0,
+		},
+		// Sidebar rows
+		{
+			"class": "tree_row",
+			"layer0.tint": "hsla(208, 4%, 25%, 1.00)",
+			"layer0.opacity": 0.0
+		},
+		// Sidebar row selected
+		{
+			"class": "tree_row",
+			"attributes": ["selected"],
+			"layer0.opacity": 1.0
+		},
+		// Sidebar heading
+		{
+			"class": "sidebar_heading",
+			"color": "hsla(208, 1%, 47%, 1.00)",
+			"font.bold": true
+		},
+
+		// Sidebar entry
+		{
+			"class": "sidebar_label",
+			"color": "hsla(242, 3%, 82%, 1.00)",
+		},
+		// Sidebar folder entry
+		{
+			"class": "sidebar_label",
+			"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+			"color": "hsla(242, 3%, 82%, 1.00)",
+			"font.bold": false,
+		},
+		{
+			"class": "sidebar_label",
+			"parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
+			"color": "hsla(242, 3%, 92%, 1.00)"
+		},
+		// Sidebar entry selected
+		{
+			"class": "sidebar_label",
+			"parents": [{"class": "tree_row", "attributes": ["selected"]}],
+			"color": "hsla(242, 3%, 92%, 1.00)"
+		},
+		// Sidebar file close
+		{
+			"class": "close_button",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/tab-close.png",
+			"layer0.tint": "hsla(219, 2%, 69%, 1.00)",
+			"layer0.opacity": 0.0,
+		},
+		{
+			"class": "close_button",
+			"parents": [{"class": "tree_row", "attributes": ["hover"]}],
+			"layer0.opacity": 1.0
+		},
+		{
+			"class": "close_button",
+			"attributes": ["pressed"],
+			"layer0.opacity": 1.0,
+			"layer0.tint": "hsla(180, 100%, 100%, 1.00)"
+		},
+		// Sidebar file dirty
+		{
+			"class": "close_button",
+			"attributes": ["dirty"],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/tab-dirty.png",
+			"layer0.opacity": 1.0,
+			"layer0.tint": "hsla(0, 0%, 57%, 1.00)"
+		},
+		{
+			"class": "close_button",
+			"attributes": ["dirty"],
+			"parents": [{"class": "tree_row", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/tab-dirty.png" 
+		},
+		{
+			"class": "close_button",
+			"attributes": ["dirty"],
+			"parents": [{"class": "tree_row", "attributes": ["hover"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/tab-close.png"
+		},
+		// Sidebar file close hover
+		{
+			"class": "close_button",
+			"attributes": ["hover"],
+			"layer0.opacity": 1.0
+		},
+		{
+			"class": "close_button",
+			"parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/tab-close.png"
+		},
+		// Sidebar group closed
+		{
+			"class": "disclosure_button_control",
+			"content_margin": [8, 8],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/fold-close.png",
+			"layer0.tint": "hsla(208, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+			"layer0.inner_margin": 0
+		},
+		{
+			"class": "disclosure_button_control",
+			"parents": [{"class": "tree_row", "attributes": ["hover"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/fold-close.png",
+			"layer0.tint": "hsla(208, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+		},
+		{
+			"class": "disclosure_button_control",
+			"parents": [{"class": "tree_row", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/fold-close.png",
+			"layer0.tint": "hsla(208, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+		},
+		// Sidebar group open
+		{
+			"class": "disclosure_button_control",
+			"attributes": ["expanded"],
+			"content_margin": [8, 8],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/fold-open.png",
+			"layer0.tint": "hsla(208, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+		},
+		{
+			"class": "disclosure_button_control",
+			"attributes": ["expanded"],
+			"parents": [{"class": "tree_row", "attributes": ["hover"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/fold-open.png",
+			"layer0.tint": "hsla(208, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+		},
+		{
+			"class": "disclosure_button_control",
+			"attributes": ["expanded"],
+			"parents": [{"class": "tree_row", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/fold-open.png",
+			"layer0.tint": "hsla(208, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+		},
+		// Sidebar folder closed
+		{
+			"class": "icon_folder",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/folder-dark.png",
+			"layer0.opacity": 1.0,
+			"content_margin": [8, 8]
+		},
+		{
+			"class": "icon_folder",
+			"parents": [{"class": "tree_row", "attributes": ["hover"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/folder-dark.png",
+			"layer0.opacity": 1.0,
+		},
+		{
+			"class": "icon_folder",
+			"parents": [{"class": "tree_row", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/folder-dark.png",
+			"layer0.opacity": 1.0,
+		},
+		// Sidebar folder open
+		{
+			"class": "icon_folder",
+			"parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/folder-dark.png",
+			"layer0.opacity": 1.0,
+		},
+		{
+			"class": "icon_folder",
+			"parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/folder-dark.png",
+			"layer0.opacity": 1.0,
+		},
+		{
+			"class": "icon_folder",
+			"parents": [{"class": "tree_row", "attributes": ["expanded", "selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/folder-dark.png",
+			"layer0.opacity": 1.0,
+		},
+		// Sidebar folder loading
+		{
+			"class": "icon_folder_loading",
+			"layer0.texture":
+			{
+				"keyframes":
+				[
+					"Theme - Fifty Shades of MacOS/textures/spinner11.png",
+					"Theme - Fifty Shades of MacOS/textures/spinner10.png",
+					"Theme - Fifty Shades of MacOS/textures/spinner9.png",
+					"Theme - Fifty Shades of MacOS/textures/spinner8.png",
+					"Theme - Fifty Shades of MacOS/textures/spinner7.png",
+					"Theme - Fifty Shades of MacOS/textures/spinner6.png",
+					"Theme - Fifty Shades of MacOS/textures/spinner5.png",
+					"Theme - Fifty Shades of MacOS/textures/spinner4.png",
+					"Theme - Fifty Shades of MacOS/textures/spinner3.png",
+					"Theme - Fifty Shades of MacOS/textures/spinner2.png",
+					"Theme - Fifty Shades of MacOS/textures/spinner1.png"
+				],
+				"loop": true,
+				"frame_time": 0.075,
+			},
+			"layer0.opacity": 1.0,
+			"content_margin": [8, 8]
+		},
+		// Sidebar file icons
+		{
+			"class": "icon_file_type",
+			// layer0.texture is filled in by code with the relevant icon name
+			"layer0.opacity": 1.0
+		},
+		// Default button state
+		{
+			"class": "button_control",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/btn-dark.png",
+			"layer0.tint": "hsla(242, 1%, 34%, 1.00)",
+			"layer0.opacity": 1.0
+		},
+		// Pressed button state
+		{
+			"class": "button_control",
+			"attributes": ["pressed"],
+			"layer0.tint": "hsla(60, 0%, 44%, 1.00)"
+		},
+		// Text input field item in  find panel
+		{
+			"class": "text_line_control",
+		 	"parents": [{"class": "panel_control find_panel"}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/btn-dark.png",
+			"layer0.opacity": 1.0,
+			"layer0.tint": "hsla(242, 1%, 34%, 1.00)",
+			"layer0.inner_margin": [8, 8],
+			"content_margin": [10, 4, 10, 2],
+			"font.size": 13,
+			"color_scheme_tint": "hsla(242, 1%, 34%, 1.00)"
+		},
+		// Text input field item in replace panel
+		{
+			"class": "text_line_control",
+		 	"parents": [{"class": "panel_control replace_panel"}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/btn-dark.png",
+			"layer0.opacity": 1.0,
+			"layer0.tint": "hsla(242, 1%, 34%, 1.00)",
+			"layer0.inner_margin": [8, 8],
+			"content_margin": [10, 4, 10, 2],
+			"font.size": 13,
+			"color_scheme_tint": "hsla(242, 1%, 34%, 1.00)"
+		},
+		// Text input field item in "find in files" panel
+		{
+			"class": "text_line_control",
+		 	"parents": [{"class": "panel_control find_in_files_panel"}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/btn-dark.png",
+			"layer0.opacity": 1.0,
+			"layer0.tint": "hsla(242, 1%, 34%, 1.00)",
+			"layer0.inner_margin": [8, 8],
+			"content_margin": [10, 4, 10, 2],
+			"font.size": 13,
+			"color_scheme_tint": "hsla(242, 1%, 34%, 1.00)"
+		},
+		// Text input dropdown
+		{
+			"class": "dropdown_button_control",
+			"content_margin": [8, 8],
+			"layer0.texture": "Theme - Delta/images/text-field-list.png",
+			"layer0.opacity": 1.0,
+			"layer0.inner_margin": [4, 4]
+		},
+		{
+			"class": "dropdown_button_control",
+			"attributes": ["hover"],
+			"layer0.texture": "Theme - Delta/images/text-field-list-hover.png"
+		},
+		// Bottom panel background
+		{
+			"class": "panel_control",
+			"layer0.texture": "",
+			"layer0.tint": "hsla(202, 7%, 16%, 1.00)",
+			"layer0.inner_margin": [2, 2, 2, 2],
+			"layer0.opacity": 1.0,
+			"content_margin": [2, 3, 2, 1],
+			"layer1.tint": "hsla(179, 6%, 4%, 1.00)",
+			"layer1.opacity": 1.0,
+			"layer1.inner_margin": [0, 0.5, 0, 0],
+			"layer1.draw_center": false,
+		},
+		// Button group middle
+		{
+			"class": "icon_button_control",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/btn-group-middle-dark.png",
+			"layer0.tint": "hsla(202, 7%, 16%, 1.00)",
+			"layer0.opacity": 1.0,
+		},
+		{
+			"class": "icon_button_control",
+			"attributes": ["selected"],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/btn-group-middle-dark.png",
+			"layer0.tint": "hsla(242, 1%, 34%, 1.00)",
+		},
+		// Button group left
+		{
+			"class": "icon_button_control",
+			"attributes": ["left"],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/btn-group-left-dark.png",
+			"layer0.tint": "hsla(202, 7%, 16%, 1.00)"
+		},
+		{
+			"class": "icon_button_control",
+			"attributes": ["left", "selected"],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/btn-group-left-dark.png",
+			"layer0.tint": "hsla(242, 1%, 34%, 1.00)"
+		},
+		// Button group right
+		{
+			"class": "icon_button_control",
+			"attributes": ["right"],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/btn-group-right-dark.png",
+			"layer0.tint": "hsla(202, 7%, 16%, 1.00)"
+		},
+		{
+			"class": "icon_button_control",
+			"attributes": ["right", "selected"],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/btn-group-right-dark.png",
+			"layer0.tint": "hsla(242, 1%, 34%, 1.00)"
+		},
+		// Button single
+		{
+			"class": "icon_button_control",
+			"attributes": ["left", "right"],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/btn-dark.png",
+			"layer0.tint": "hsla(202, 7%, 16%, 1.00)"
+		},
+		{
+			"class": "icon_button_control",
+			"attributes": ["left", "right", "selected"],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/btn-dark.png",
+			"layer0.tint": "hsla(242, 1%, 34%, 1.00)"
+		},
+		// Panel close button
+		{
+			"class": "panel_close_button",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/panel-close.png",
+			"layer0.tint": "hsla(127, 1%, 61%, 1.00)",
+			"layer0.opacity": 0.6
+		},
+		{
+			"class": "panel_close_button",
+			"attributes": ["hover"],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/panel-close.png",
+			"layer0.tint": "hsla(127, 1%, 71%, 1.00)",
+			"layer0.opacity": 0.85
+		},
+		{
+			"class": "panel_close_button",
+			"attributes": ["pressed"],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/panel-close.png",
+			"layer0.tint": "hsla(127, 1%, 81%, 1.00)",
+			"layer0.opacity": 1.0
+		},
+		// Regex search button
+		{
+			"class": "icon_regex",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/regex-icon.png",
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+			"content_margin": [10, 10]
+		},
+		{
+			"class": "icon_regex",
+			"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/regex-icon.png",
+			"layer0.tint": "hsla(242, 1%, 80%, 1.00)"
+		},
+		// Case sensitive search button
+		{
+			"class": "icon_case",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/case-icon.png",
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+			"content_margin": [10, 10]
+		},
+		{
+			"class": "icon_case",
+			"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/case-icon.png",
+			"layer0.tint": "hsla(242, 1%, 80%, 1.00)"
+		},
+		// Match whole word search button
+		{
+			"class": "icon_whole_word",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/word-icon.png",
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+			"content_margin": [10, 10]
+		},
+		{
+			"class": "icon_whole_word",
+			"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/word-icon.png",
+			"layer0.tint": "hsla(242, 1%, 80%, 1.00)"
+		},
+		// Show search context button
+		{
+			"class": "icon_context",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/context-icon.png",
+			"layer0.opacity": 1.0,
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"content_margin": [10, 10]
+		},
+		{
+			"class": "icon_context",
+			"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/context-icon.png",
+			"layer0.tint": "hsla(242, 1%, 80%, 1.00)"
+		},
+		// Use search buffer
+		{
+			"class": "icon_use_buffer",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/buffer-icon.png",
+			"layer0.opacity": 1.0,
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"content_margin": [10, 10]
+		},
+		{
+			"class": "icon_use_buffer",
+			"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/buffer-icon.png",
+			"layer0.tint": "hsla(242, 1%, 80%, 1.00)"
+		},
+		// Reverse search direction button
+		{
+			"class": "icon_reverse",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/reverse-icon.png",
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+			"content_margin": [10, 10]
+		},
+		{
+			"class": "icon_reverse",
+			"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/reverse-icon.png",
+			"layer0.tint": "hsla(242, 1%, 80%, 1.00)"
+		},
+		// Search wrap button
+		{
+			"class": "icon_wrap",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/wrap-icon.png",
+			"layer0.opacity": 1.0,
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"content_margin": [10, 10]
+		},
+		{
+			"class": "icon_wrap",
+			"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/wrap-icon.png",
+			"layer0.tint": "hsla(242, 1%, 80%, 1.00)"
+		},
+		// Search in selection button
+		{
+			"class": "icon_in_selection",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/inselection-icon.png",
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+			"content_margin": [10, 10]
+		},
+		{
+			"class": "icon_in_selection",
+			"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/inselection-icon.png",
+			"layer0.tint": "hsla(242, 1%, 80%, 1.00)"
+		},
+		// Preserve case button
+		{
+			"class": "icon_preserve_case",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/pcase-icon.png",
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+			"content_margin": [10, 10]
+		},
+		{
+			"class": "icon_preserve_case",
+			"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/pcase-icon.png",
+			"layer0.tint": "hsla(242, 1%, 80%, 1.00)"
+		},
+		// Highlight results button
+		{
+			"class": "icon_highlight",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/highligh-icon.png",
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+			"content_margin": [10, 10]
+		},
+		{
+			"class": "icon_highlight",
+			"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/highligh-icon.png",
+			"layer0.tint": "hsla(242, 1%, 80%, 1.00)"
+		},
+		// Use .gitignore button
+		{
+			"class": "icon_use_gitignore",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/gitignore-icon.png",
+			"layer0.tint": "hsla(242, 1%, 60%, 1.00)",
+			"layer0.opacity": 1.0,
+			"content_margin": [10, 10]
+		},
+		{
+			"class": "icon_use_gitignore",
+			"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/gitignore-icon.png",
+			"layer0.tint": "hsla(242, 1%, 80%, 1.00)"
+		}
+
 	]
 }
