@@ -15,7 +15,8 @@
 	"globals":
 	{
 		"foreground": "hsla(120, 0%, 87%, 1.00)",
-		"background": "hsla(219, 5%, 12%, 1.00)",
+		"background": "hsla(225, 7%, 13%, 1.00)",
+		//"background": "hsla(219, 5%, 12%, 1.00)",
 		"caret": "var(orange)",
 		"invisibles": "color(var(white) a(0.5))",
 		"selection": "color(var(white) a(0.2))",
