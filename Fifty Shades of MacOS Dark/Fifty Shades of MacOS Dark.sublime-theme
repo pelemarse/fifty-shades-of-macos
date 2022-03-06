@@ -861,6 +861,23 @@
 			"border_color": "hsla(179, 6%, 4%, 1.00)",
 			"border_size": 1
 		},
+		{
+			"class": "fold_button_control",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/fold-close.png",
+			"layer0.tint": "white"
+		},
+		{
+			"class": "popup_control",
+			"layer0.tint": "hsla(219, 3%, 21%, 1.00)",
+			"layer0.opacity": 1.0
+		},
+		{
+			"class": "auto_complete",
+			"row_padding": 0,
+			"tint_index": 0,
+			"layer0.opacity": 1.0,
+			"tint_modifier": "hsla(219, 3%, 21%, 1.00)",
+		},
 
 	]
 }

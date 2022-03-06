@@ -1,5 +1,14 @@
 {
-	"variables": {},
+	"variables": {
+		"kind_function_color": "var(--redish)",
+		"kind_keyword_color": "var(--pinkish)",
+		"kind_markup_color": "var(--orangish)",
+		"kind_namespace_color": "var(--bluish)",
+		"kind_navigation_color": "var(--yellowish)",
+		"kind_snippet_color": "var(--greenish)",
+		"kind_type_color": "var(--purplish)",
+		"kind_variable_color": "var(--cyanish)",
+	},
 	"rules": [
 		// TABS
 		// tabs set
@@ -1050,8 +1059,8 @@
 		},
 		{
 			"class": "fold_button_control",
-			"layer0.texture": "Theme - Default/common/fold_closed.png",
-			"layer0.tint": "white",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/fold-close.png",
+			"layer0.tint": "black",
 			"layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
 			"content_margin": 8
 		},
@@ -1063,91 +1072,54 @@
 		{
 			"class": "fold_button_control",
 			"attributes": ["expanded"],
-			"layer0.texture": "Theme - Default/common/fold_opened.png",
-		},
-		{
-			"class": "fold_button_control",
-			"parents": [{"class": "text_area_control", "attributes": ["file_light"]}],
-			"layer0.tint": "black",
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/fold-open.png",
 		},
 		{
 			"class": "popup_shadow",
-			"settings": ["popup_shadows"],
-			"platforms": ["linux"],
-			"layer0.texture": "Theme - Default/common/linux_shadow.png",
-			"layer0.inner_margin": [24, 20, 24, 28],
-			"layer0.draw_center": false,
-			"layer0.opacity": 1.0,
-			"content_margin": [24, 20, 24, 28]
-		},
-		{
-			"class": "popup_shadow",
-			"settings": ["popup_shadows"],
-			"platforms": ["osx"],
-			"layer0.texture": "Theme - Default/common/mac_shadow.png",
-			"layer0.inner_margin": [24, 20, 24, 28],
-			"layer0.draw_center": false,
-			"layer0.opacity": 1.0,
-			"content_margin": [24, 20, 24, 28]
-		},
-		{
-			"class": "popup_shadow",
-			"settings": ["popup_shadows"],
-			"platforms": ["windows"],
-			"layer0.texture": "Theme - Default/common/windows_shadow.png",
-			"layer0.inner_margin": [15, 14, 15, 16],
-			"layer0.draw_center": false,
-			"layer0.opacity": 1.0,
-			"content_margin": [15, 14, 15, 16]
+			"layer0.texture": "",
+			"layer0.opacity": 0.0,
+			"layer0.inner_margin": 0,
+			"content_margin": 0,
+		    "layer1.opacity": 0.0,
+		    "layer1.inner_margin": 0
 		},
 		{
 			"class": "popup_control",
-			"layer0.tint": "var(ui_bg)",
-			"layer0.opacity": 1.0
+			"layer0.tint": "hsla(179, 5%, 95%, 1.00)",
+			"layer0.opacity": 1.0,
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/popup-back.png",
+			"layer0.inner_margin": 10,
+			"content_margin": 10
 		},
 		{
 			"class": "auto_complete",
 			"row_padding": 0,
 			"tint_index": 0,
 			"layer0.opacity": 1.0,
-			"tint_modifier": "var(auto_complete_bg_dark_tint)",
+			"tint_modifier": "hsla(179, 5%, 95%, 1.00)",
 		},
-		{
-			"class": "auto_complete",
-			"attributes": ["file_light"],
-			"tint_modifier": "var(auto_complete_bg_light_tint)",
-		},
-		{
-			"class": "scroll_bar_control",
-			"parents": [{"class": "popup_control auto_complete_popup"}],
-			"tint_modifier": "var(auto_complete_bg_light_tint)",
-		},
-		{
-			"class": "scroll_bar_control",
-			"attributes": ["dark"],
-			"parents": [{"class": "popup_control auto_complete_popup"}],
-			"tint_modifier": "var(auto_complete_bg_dark_tint)",
-		},
+		// {
+		// 	"class": "scroll_bar_control",
+		// 	"parents": [{"class": "popup_control auto_complete_popup"}],
+		// 	"tint_modifier": "black)",
+		// },
+		// {
+		// 	"class": "scroll_bar_control",
+		// 	"attributes": ["dark"],
+		// 	"parents": [{"class": "popup_control auto_complete_popup"}],
+		// 	"tint_modifier": "white",
+		// },
 		{
 			"class": "table_row",
 			"layer0.tint": "transparent",
-			"layer0.opacity": 1.0
+			"layer0.opacity": 1.0,
 		},
 		{
 			"class": "auto_complete_label",
-			"fg": "transparent",
-			"match_fg": "var(auto_complete_text_dark_tint)",
-			"selected_fg": "transparent",
-			"selected_match_fg": "var(auto_complete_text_dark_tint)",
-			"fg_blend": true
-		},
-		{
-			"class": "auto_complete_label",
-			"parents": [{"class": "auto_complete", "attributes": ["file_light"]}],
-			"fg": "transparent",
-			"match_fg": "var(auto_complete_text_light_tint)",
-			"selected_fg": "transparent",
-			"selected_match_fg": "var(auto_complete_text_light_tint)",
+			"fg": "hsla(208, 2%, 78%, 0.50)",
+			"match_fg": "hsla(242, 2%, 40%, 1.00)",
+			"selected_fg": "hsla(120, 0%, 29%, 1.00)",
+			"selected_match_fg": "hsla(120, 0%, 29%, 1.00)",
 			"fg_blend": true
 		},
 		{
@@ -1158,20 +1130,14 @@
 		{
 			"class": "table_row",
 			"attributes": ["selected"],
-			"layer0.tint": "var(auto_complete_selected_row_dark_tint)"
-		},
-		{
-			"class": "table_row",
-			"parents": [{"class": "auto_complete", "attributes": ["file_light"]}],
-			"attributes": ["selected"],
-			"layer0.tint": "var(auto_complete_selected_row_light_tint)"
+			"layer0.tint": "hsla(208, 2%, 78%, 0.50)"
 		},
 		{
 			"class": "kind_container",
 			// Extra margin on the left makes the
 			// italic kind_label look visually centered
-			"content_margin": [6, 0, 5, 0],
-			"layer0.tint": "var(--background)",
+			"content_margin": [6, 0, 8, 0],
+			"layer0.tint": "white",
 			"layer0.opacity": 0.0,
 			"layer1.tint": "white",
 			"layer1.opacity": 0.0,
@@ -1182,16 +1148,8 @@
 			[
 				{"class": "quick_panel"},
 			],
-			"layer0.tint": "var(overlay_bg)",
+			"layer0.tint": "white",
 			"layer0.opacity": 0.5,
-		},
-		{
-			"class": "kind_container",
-			"parents":
-			[
-				{"class": "auto_complete", "attributes": ["file_light"]},
-			],
-			"layer1.tint": "black",
 		},
 		{
 			"class": "kind_container",
@@ -1203,17 +1161,8 @@
 			"layer1.tint": "white",
 		},
 		{
-			"class": "kind_container",
-			"parents":
-			[
-				{"class": "auto_complete", "attributes": ["file_light"]},
-				{"class": "table_row", "attributes": ["selected"]},
-			],
-			"layer1.tint": "black",
-		},
-		{
 			"class": "kind_label",
-			"font.face": "var(font_face)",
+			"font.face": "hsla(120, 0%, 29%, 1.00)",
 			"font.size": "1.1rem",
 			"font.bold": true,
 			"font.italic": true,
@@ -1221,7 +1170,7 @@
 		{
 			"class": "kind_label",
 			"parents": [{"class": "quick_panel"}],
-			"font.size": "var(font_size_lg)"
+			"font.size": 13
 		},
 		{
 			"class": "kind_container kind_function",
@@ -1261,7 +1210,7 @@
 				{"class": "quick_panel"},
 				{"class": "kind_container kind_keyword"},
 			],
-			"color": "color(var(kind_keyword_color) min-contrast(var(overlay_bg) 2.5))"
+			"color": "color(var(kind_keyword_color) min-contrast(white 2.5))"
 		},
 		{
 			"class": "kind_container kind_markup",
@@ -1281,7 +1230,7 @@
 				{"class": "quick_panel"},
 				{"class": "kind_container kind_markup"},
 			],
-			"color": "color(var(kind_markup_color) min-contrast(var(overlay_bg) 2.5))"
+			"color": "color(var(kind_markup_color) min-contrast(white 2.5))"
 		},
 		{
 			"class": "kind_container kind_namespace",
@@ -1301,7 +1250,7 @@
 				{"class": "quick_panel"},
 				{"class": "kind_container kind_namespace"},
 			],
-			"color": "color(var(kind_namespace_color) min-contrast(var(overlay_bg) 2.5))"
+			"color": "color(var(kind_namespace_color) min-contrast(white 2.5))"
 		},
 		{
 			"class": "kind_container kind_navigation",
@@ -1321,7 +1270,7 @@
 				{"class": "quick_panel"},
 				{"class": "kind_container kind_navigation"},
 			],
-			"color": "color(var(kind_navigation_color) min-contrast(var(overlay_bg) 2.5))"
+			"color": "color(var(kind_navigation_color) min-contrast(white 2.5))"
 		},
 		{
 			"class": "kind_container kind_snippet",
@@ -1341,7 +1290,7 @@
 				{"class": "quick_panel"},
 				{"class": "kind_container kind_snippet"},
 			],
-			"color": "color(var(kind_snippet_color) min-contrast(var(overlay_bg) 2.5))"
+			"color": "color(var(kind_snippet_color) min-contrast(white 2.5))"
 		},
 		{
 			"class": "kind_container kind_type",
@@ -1361,7 +1310,7 @@
 				{"class": "quick_panel"},
 				{"class": "kind_container kind_type"},
 			],
-			"color": "color(var(kind_type_color) min-contrast(var(overlay_bg) 2.5))"
+			"color": "color(var(kind_type_color) min-contrast(white 2.5))"
 		},
 		{
 			"class": "kind_container kind_variable",
@@ -1381,7 +1330,7 @@
 				{"class": "quick_panel"},
 				{"class": "kind_container kind_variable"},
 			],
-			"color": "color(var(kind_variable_color) min-contrast(var(overlay_bg) 2.5))"
+			"color": "color(var(kind_variable_color) min-contrast(white 2.5))"
 		},
 		{
 			"class": "kind_container kind_color_redish",
@@ -1504,14 +1453,9 @@
 		{
 			"class": "auto_complete_detail_pane",
 			"tint_index": 0,
-			"layer0.opacity": 1.0,
-			"tint_modifier": "var(auto_complete_detail_pane_dark_tint)",
-			"content_margin": [8, 5, 8, 5]
-		},
-		{
-			"class": "auto_complete_detail_pane",
-			"attributes": ["file_light"],
-			"tint_modifier": "var(auto_complete_detail_pane_light_tint)",
+			"layer0.opacity": 0.0,
+			"tint_modifier": "transparent",
+			"content_margin": [8, 5, 8, 5],
 		},
 		{
 			"class": "auto_complete_info",
@@ -1520,23 +1464,12 @@
 		{
 			"class": "auto_complete_kind_name_label",
 			"font.size": "0.9rem",
-			"font.italic": true,
-			"border_color": "var(kind_name_label_border_color)"
+			"font.italic": false,
+			"border_color": "hsla(242, 1%, 83%, 1.00)"
 		},
 		{
 			"class": "auto_complete_details",
-			"monospace_background_color": "var(auto_complete_detail_panel_mono_dark_bg)"
-		},
-		{
-			"class": "auto_complete_details",
-			"parents":
-			[
-				{
-					"class": "auto_complete_detail_pane",
-					"attributes": ["file_light"]
-				}
-			],
-			"monospace_background_color": "var(auto_complete_detail_panel_mono_light_bg)"
+			"monospace_background_color": "white"
 		},
 		{
 			"class": "annotation_close_button",
