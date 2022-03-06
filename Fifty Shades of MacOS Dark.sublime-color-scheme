@@ -19,7 +19,8 @@
 		"scarlet": "hsla(353, 100%, 57%, 1.00)",
 		"magnesium": "hsla(0, 0%, 70%, 1.00)",
 		"radical-red": "hsla(349, 91%, 62%, 1.00)",
-		"dark-grey": "hsla(0, 0%, 34%, 1.00)"
+		"dark-grey": "hsla(0, 0%, 34%, 1.00)",
+		"tuatara": "hsla(0, 0%, 20%, 1.00)"
 	},
 	"globals":
 	{
@@ -28,8 +29,8 @@
 		"caret": "var(white)",
 		"invisibles": "var(steel-gray)",
 		"line_highlight": "var(bunker)",
-		"selection": "var(zero-black)",
-		"selection_border": "var(zero-black)",
+		"selection": "var(tuatara)",
+		"selection_border": "var(tuatara)",
 		"selection_corner_style": "square",
 		"misspelling": "var(sunset-orange)",
 		"active_guide": "var(white)",
@@ -40,7 +41,8 @@
 		"bracket_contents_options": "underline",
 		"bracket_contents_foreground": "var(cool-blue)",
 		"gutter_foreground": "var(steel)",
-		"tags_options": "stippled_underline"
+		"tags_options": "stippled_underline",
+		"rulers": "var(steel-gray)"
 	},
 	"rules":
 	[
