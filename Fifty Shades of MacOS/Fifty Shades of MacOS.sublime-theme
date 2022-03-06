@@ -1027,28 +1027,8 @@
 		// Views
 		{
 			"class": "grid_layout_control",
-			"border_color": "var(--background)",
-			"border_size": 2
-		},
-		{
-			"class": "grid_layout_control",
-			"parents": [{"class": "edit_window", "attributes": ["file_dark"]}],
-			"border_color": "var(tabset_dark_bg)",
-		},
-		{
-			"class": "grid_layout_control",
-			"parents": [{"class": "edit_window", "attributes": ["file_medium_dark"]}],
-			"border_color": "var(tabset_medium_dark_bg)",
-		},
-		{
-			"class": "grid_layout_control",
-			"parents": [{"class": "edit_window", "attributes": ["file_medium"]}],
-			"border_color": "var(tabset_medium_bg)",
-		},
-		{
-			"class": "grid_layout_control",
-			"parents": [{"class": "edit_window", "attributes": ["file_light"]}],
-			"border_color": "var(tabset_light_bg)",
+			"border_color": "hsla(242, 1%, 83%, 1.00)",
+			"border_size": 1
 		},
 		{
 			"class": "minimap_control",

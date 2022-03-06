@@ -843,7 +843,24 @@
 			"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/gitignore-icon.png",
 			"layer0.tint": "hsla(242, 1%, 80%, 1.00)"
-		}
+		},
+
+
+
+
+
+
+
+
+
+
+
+
+		{
+			"class": "grid_layout_control",
+			"border_color": "hsla(179, 6%, 4%, 1.00)",
+			"border_size": 1
+		},
 
 	]
 }
