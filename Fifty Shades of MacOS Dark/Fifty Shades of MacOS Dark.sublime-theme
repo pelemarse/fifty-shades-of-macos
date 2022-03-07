@@ -48,6 +48,11 @@
 			"parents": [{"class": "tab_control", "attributes": ["!selected"]}],
 			"fg": "hsla(242, 1%, 65%, 1.00)"
 		},
+		{
+			"class": "tab_label",
+			"attributes": ["transient"],
+			"font.italic": true 
+		},
 
 		// tab close button
 		{
