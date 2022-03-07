@@ -20,7 +20,8 @@
 		"magnesium": "hsla(0, 0%, 70%, 1.00)",
 		"radical-red": "hsla(349, 91%, 62%, 1.00)",
 		"dark-grey": "hsla(0, 0%, 34%, 1.00)",
-		"tuatara": "hsla(0, 0%, 20%, 1.00)"
+		"tuatara": "hsla(0, 0%, 20%, 1.00)",
+		"shark": "hsla(179, 1%, 22%, 1.00)"
 	},
 	"globals":
 	{
@@ -42,7 +43,7 @@
 		"bracket_contents_foreground": "var(white)",
 		"gutter_foreground": "var(steel)",
 		"tags_options": "stippled_underline",
-		"rulers": "var(steel-gray)"
+		"rulers": "var(shark)"
 	},
 	"rules":
 	[
