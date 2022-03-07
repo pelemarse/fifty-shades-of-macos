@@ -158,6 +158,10 @@
 		{
 			"scope": "punctuation.section.braces",
 			"foreground": "var(dark-grey)"
+		},
+		{
+			"scope": "markup.highlight.text.lsp, markup.highlight.read.lsp, markup.highlight.write.lsp",
+			"background": "var(tuatara)"
 		}
 	]
 }
