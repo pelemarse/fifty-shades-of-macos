@@ -37,9 +37,9 @@
 		"find_highlight_foreground": "var(zero-black)",
 		"find_highlight": "var(supernova)",
 		"brackets_options": "underline",
-		"brackets_foreground": "var(cool-blue)",
+		"brackets_foreground": "var(white)",
 		"bracket_contents_options": "underline",
-		"bracket_contents_foreground": "var(cool-blue)",
+		"bracket_contents_foreground": "var(white)",
 		"gutter_foreground": "var(steel)",
 		"tags_options": "stippled_underline",
 		"rulers": "var(steel-gray)"

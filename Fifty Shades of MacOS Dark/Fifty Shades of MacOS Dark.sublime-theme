@@ -1243,6 +1243,49 @@
 			"attributes": ["hover"],
 			"layer0.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" }
 		},
+		{
+			"class": "scroll_bar_control",
+			"attributes": ["dark"],
+			"parents": [{"class": "popup_control auto_complete_popup"}],
+			"tint_modifier": "white",
+		},
+		{
+			"class": "scroll_track_control",
+			"attributes": ["dark"],
+			"layer0.tint": "white",
+		},
+		{
+			"class": "puck_control",
+			"attributes": ["dark"],
+			"layer0.tint": "hsla(275, 1%, 56%, 1.00)",
+		},
+		{
+			"class": "puck_control",
+			"parents": [{"class": "sidebar_container"}],
+			"layer0.tint": "hsla(275, 1%, 56%, 1.00)",
+		},
+		{
+			"class": "scroll_track_control",
+			"parents": [{"class": "sidebar_container"}],
+			"layer0.tint": "white",
+		},
+		// Scroll Bars (Switch Project)
+		{
+			"class": "scroll_bar_control",
+			"parents": [{"class": "switch_project_window"}],
+			"layer0.tint": "hsla(219, 6%, 11%, 1.00)"
+		},
+		// Scroll Bars (Overlay)
+		{
+			"class": "scroll_track_control",
+			"parents": [{"class": "overlay_control"}],
+			"layer0.tint": "white",
+		},
+		{
+			"class": "puck_control",
+			"parents": [{"class": "overlay_control"}],
+			"layer0.tint": "white",
+		},
 
 
 	]
