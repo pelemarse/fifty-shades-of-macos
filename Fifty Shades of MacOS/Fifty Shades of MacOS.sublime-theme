@@ -384,7 +384,7 @@
 			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/text-field.png",
 			"layer0.opacity": 0.0,
 			"layer0.inner_margin": [13.5, 14],
-			"content_margin": [2, 10],
+			"content_margin": [8, 10],
 			"color_scheme_tint": "hsla(208, 4%, 89%, 1.00)",
 			"font.size": 16,
 			// "layer1.tint": "hsla(198, 3%, 79%, 1.00)",
@@ -396,17 +396,17 @@
 		{
 			"class": "overlay_control",
 			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/quick-panel-back.png",
-			"layer0.inner_margin": [10, 10, 10, 10],
+			"layer0.inner_margin": [11, 11, 16, 17],
 			"layer0.opacity": 1.0,
 			//"layer1.texture": "Theme - Fifty Shades of MacOS/textures/quick-panel-back-inner.png",
 			//"layer1.inner_margin": [9, 9, 9, 9],
 			//"layer1.opacity": 1.0,
-			"content_margin": [17, 12, 17, 9]
+			"content_margin": [9, 12, 9, 9]
 		},
 		// Quick panel
 		{
 			"class": "quick_panel",
-			"row_padding": [5, 3],
+			"row_padding": [12, 3],
 			"layer0.tint": "hsla(219, 6%, 11%, 1.00)",
 			"layer0.opacity": 1.0,
 			"dark_content": false
