@@ -871,6 +871,11 @@
 			"layer0.tint": "white"
 		},
 		{
+			"class": "fold_button_control",
+			"attributes": ["expanded"],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/fold-open.png",
+		},
+		{
 			"class": "popup_control",
 			"layer0.tint": "hsla(225, 7%, 13%, 1.00)",
 			"layer0.opacity": 1.0,
