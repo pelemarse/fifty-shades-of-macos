@@ -1113,8 +1113,8 @@
 			"class": "auto_complete_label",
 			"fg": "hsla(208, 2%, 78%, 0.50)",
 			"match_fg": "hsla(242, 2%, 40%, 1.00)",
-			"selected_fg": "hsla(120, 0%, 29%, 1.00)",
-			"selected_match_fg": "hsla(120, 0%, 29%, 1.00)",
+			"selected_fg": "hsla(0, 0%, 97%, 1.00)", //hsla(120, 0%, 29%, 1.00)
+			"selected_match_fg": "hsla(0, 0%, 100%, 1.00)", //hsla(120, 0%, 29%, 1.00)
 			"fg_blend": true
 		},
 		{
@@ -1125,7 +1125,7 @@
 		{
 			"class": "table_row",
 			"attributes": ["selected"],
-			"layer0.tint": "hsla(208, 2%, 78%, 0.50)"
+			"layer0.tint": "hsla(213, 100%, 67%, 1.00)" // hsla(208, 2%, 78%, 0.50)
 		},
 		{
 			"class": "kind_container",
