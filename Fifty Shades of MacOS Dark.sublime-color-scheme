@@ -163,6 +163,14 @@
 		{
 			"scope": "markup.highlight.text.lsp, markup.highlight.read.lsp, markup.highlight.write.lsp",
 			"background": "var(tuatara)"
+		},
+		{
+			"scope": "meta.mapping.json, meta.sequence.json",
+			"foreground": "var(dark-grey)"
+		},
+		{
+			"scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
+			"foreground": "var(dark-grey)"
 		}
 	]
 }
