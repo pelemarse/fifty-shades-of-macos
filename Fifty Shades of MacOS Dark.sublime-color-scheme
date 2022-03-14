@@ -171,6 +171,10 @@
 		{
 			"scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
 			"foreground": "var(dark-grey)"
+		},
+		{
+			"scope": "punctuation.section.brackets",
+			"foreground": "var(dark-grey)"
 		}
 	]
 }
