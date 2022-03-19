@@ -88,7 +88,7 @@
 			"font.bold": false,
 			"font.size": 11,
 			"fg": "hsla(120, 0%, 29%, 1.00)",
-			"content_margin": [8, 0, 0, 0]
+			//"content_margin": [8, 0, 0, 0]
 		},
 		{
 			"class": "tab_label",
@@ -1060,13 +1060,13 @@
 		{
 			"class": "minimap_control",
 			"settings": ["always_show_minimap_viewport"],
-			"viewport_color": "var(viewport_always_visible_color)",
+			"viewport_color": "white",
 			"viewport_opacity": 1.0,
 		},
 		{
 			"class": "minimap_control",
 			"settings": ["!always_show_minimap_viewport"],
-			"viewport_color": "var(viewport_hide_show_color)",
+			"viewport_color": "transparent",
 			"viewport_opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
 		},
 		{
