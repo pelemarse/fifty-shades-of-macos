@@ -191,6 +191,26 @@
 		{
 			"scope": "source.makefile meta.function.body.makefile source.shell.embedded.makefile meta.function-call.identifier.shell",
 			"foreground": "var(magnesium)"
+		},
+		{
+			"scope": "source.makefile meta.string.makefile string.unquoted.makefile source.shell.embedded.makefile meta.function-call.arguments.shell meta.parameter.option.shell meta.string.shell string.quoted.double.shell",
+			"foreground": "var(de-york)"
+		},
+		{
+			"scope": "source.makefile meta.string.makefile string.unquoted.makefile support.function.builtin.makefile",
+			"foreground": "var(magnesium)"
+		},
+		{
+			"scope": "source.makefile meta.string.makefile string.unquoted.makefile source.shell.embedded.makefile meta.function-call.identifier.shell variable.function.shell",
+			"foreground": "var(magnesium)"
+		},
+		{
+			"scope": "source.makefile meta.string.makefile string.unquoted.makefile source.shell.embedded.makefile meta.function-call.arguments.shell",
+			"foreground": "var(magnesium)"
+		},
+		{
+			"scope": "source.makefile meta.string.makefile string.unquoted.makefile",
+			"foreground": "var(de-york)"
 		}
 	]
 }
