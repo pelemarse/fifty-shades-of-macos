@@ -1,92 +1,76 @@
-// {
-//     "name": "Fifty Shades of MacOS",
-//     "author": "Pele Marse",
-//     "variables":
-//     {
-
-//     },
-//     "globals":
-//     {
-//         "foreground": "hsla(0, 0%, 15%, 1.00)",
-//         "background": "hsla(0, 0%, 100%, 1.00)",
-//     },
-//     "rules":
-//     [
-
-//     ]
-// }
 {
-    "name": "Fifty Shades of MacOS",
+    "name": "Fifty Shades of MacOS Dark",
     "author": "Pele Marse",
     "variables":
     {
         "white": "hsla(0, 0%, 100%, 1.00)",
         "zero-black": "hsla(0, 0%, 0%, 1.00)",
         "black": "hsla(225, 7%, 13%, 1.00)",
-        "athens-gray": "hsla(120, 0%, 87%, 1.00)",
-        "steel": "hsla(240, 2%, 40%, 1.00)", //"ship-gray": "hsla(60, 0%, 31%, 1.00)",
-        "steel-gray": "hsla(225, 4%, 28%, 1.00)",
-        "baby-blue-eyes": "hsla(213, 99%, 82%, 1.00)",
-        "bunker": "hsla(219, 5%, 17%, 1.00)",
         "sunset-orange": "hsla(4, 100%, 66%, 1.00)",
-        "cool-blue": "hsla(210, 100%, 52%, 1.00)",
         "supernova": "hsla(47, 100%, 50%, 1.00)",
-        "de-york": "hsla(133, 53%, 69%, 1.00)",
-        "macaroni-and-cheese": "hsla(26, 89%, 75%, 1.00)",
         "scarlet": "hsla(353, 100%, 57%, 1.00)",
-        "magnesium": "hsla(0, 0%, 70%, 1.00)",
         "radical-red": "hsla(349, 91%, 62%, 1.00)",
-        "dark-grey": "hsla(0, 0%, 34%, 1.00)",
-        "tuatara": "hsla(0, 0%, 20%, 1.00)"
+
+        "thunder": "hsla(0, 0%, 46%, 1.00)",
+        "mercury": "hsla(179, 2%, 90%, 1.00)",
+        "light-grey": "hsla(180, 2%, 83%, 1.00)",
+        "dark-grey": "hsla(0, 0%, 66%, 1.00)",
+        "concrete": "hsla(180, 4%, 95%, 1.00)",
+        "moss": "hsla(149, 100%, 26%, 1.00)",
+        "mountain-mist": "hsla(127, 1%, 58%, 1.00)",
+        "ecstasy": "hsla(25, 100%, 53%, 1.00)",
+        "lochmara": "hsla(203, 98%, 42%, 1.00)",
+        "x11-grey": "hsla(0, 0%, 75%, 1.00)",
+        "black-haze": "hsla(211, 3%, 97%, 1.00)"
     },
     "globals":
     {
-        "foreground": "var(athens-gray)",
+        "foreground": "var(thunder)",
         "background": "var(white)",
-        "caret": "var(white)",
-        "invisibles": "var(steel-gray)",
-        "line_highlight": "var(bunker)",
-        "selection": "var(tuatara)",
-        "selection_border": "var(tuatara)",
+        "caret": "var(thunder)",
+        "invisibles": "var(light-grey)",
+        "line_highlight": "var(mercury)",
+        "selection": "var(concrete)",
+        "selection_border": "var(concrete)",
         "selection_corner_style": "square",
         "misspelling": "var(sunset-orange)",
-        "active_guide": "var(white)",
+        "active_guide": "var(black)",
         "find_highlight_foreground": "var(zero-black)",
         "find_highlight": "var(supernova)",
         "brackets_options": "underline",
-        "brackets_foreground": "var(white)",
+        "brackets_foreground": "var(black)",
         "bracket_contents_options": "underline",
-        "bracket_contents_foreground": "var(white)",
-        "gutter_foreground": "var(steel)",
+        "bracket_contents_foreground": "var(black)",
+        "gutter_foreground": "var(dark-grey)",
         "tags_options": "stippled_underline",
-        "rulers": "var(steel-gray)"
+        "rulers": "var(mercury)"
     },
     "rules":
     [
         {
             "scope": "comment",
-            "foreground": "var(steel)"
+            "foreground": "var(mountain-mist)"
         },
         {
             "scope": "string",
-            "foreground": "var(de-york)"
+            "foreground": "var(moss)"
         },
         {
             "scope": "constant.numeric",
-            "foreground": "var(macaroni-and-cheese)"
+            "foreground": "var(ecstasy)"
         },
         {
             "scope": "constant.language",
-            "foreground": "var(macaroni-and-cheese)",
+            "foreground": "var(ecstasy)",
             "font_style": "bold"
         },
         {
             "scope": "constant, constant.character, constant.other", // !!!!!!!!!!!!!
-            "foreground": "var(magnesium)"
+            "foreground": "var(thunder)"
         },
         {
             "scope": "keyword",
-            "foreground": "var(baby-blue-eyes)"
+            "foreground": "var(lochmara)"
         },
         {
             "scope": "punctuation.definition.annotation", // !!!!!!!!!!!
@@ -94,47 +78,47 @@
         },
         {
             "scope": "variable.other.dollar.only.js",
-            "foreground": "var(magnesium)"
+            "foreground": "var(thunder)"
         },
         {
             "scope": "storage",
-            "foreground": "var(baby-blue-eyes)"
+            "foreground": "var(lochmara)"
         },
         {
             "scope": "storage.type",
-            "foreground": "var(magnesium)",
+            "foreground": "var(thunder)",
         },
         {
             "scope": "entity.name",
-            "foreground": "var(white)"
+            "foreground": "var(black)"
         },
         {
             "scope": "entity.other.inherited-class",
-            "foreground": "var(white)"
+            "foreground": "var(black)"
         },
         {
             "scope": "variable.parameter",
-            "foreground": "var(magnesium)"
+            "foreground": "var(thunder)"
         },
         {
             "scope": "variable.language",
-            "foreground": "var(magnesium)"
+            "foreground": "var(thunder)"
         },
         {
             "scope": "entity.name.tag",
-            "foreground": "var(magnesium)"
+            "foreground": "var(thunder)"
         },
         {
             "scope": "entity.other",
-            "foreground": "var(magnesium)"
+            "foreground": "var(thunder)"
         },
         {
             "scope": "variable.function",
-            "foreground": "var(white)"
+            "foreground": "var(black)"
         },
         {
             "scope": "support.type, support.class",
-            "foreground": "var(magnesium)",
+            "foreground": "var(thunder)",
             "font_style": "none"
         },
         {
@@ -150,35 +134,83 @@
 
         {
             "scope": "variable.other, variable.declaration",
-            "foreground": "var(magnesium)"
+            "foreground": "var(thunder)"
         },
         {
             "scope": "meta.block, meta.type",
-            "foreground": "var(magnesium)"
+            "foreground": "var(thunder)"
         },
         {
             "scope": "punctuation.section.parens",
-            "foreground": "var(dark-grey)"
+            "foreground": "var(x11-grey)"
         },
         {
             "scope": "keyword.declaration.function",
-            "foreground": "var(baby-blue-eyes)"
+            "foreground": "var(lochmara)"
         },
         {
             "scope": "punctuation.accessor.dot",
-            "foreground": "var(magnesium)"
+            "foreground": "var(thunder)"
         },
         {
             "scope": "keyword.declaration",
-            "foreground": "var(baby-blue-eyes)"
+            "foreground": "var(lochmara)"
         },
         {
             "scope": "punctuation.section.braces",
-            "foreground": "var(dark-grey)"
+            "foreground": "var(x11-grey)"
         },
         {
             "scope": "markup.highlight.text.lsp, markup.highlight.read.lsp, markup.highlight.write.lsp",
-            "background": "var(tuatara)"
+            "background": "var(black-haze)"
+        },
+        {
+            "scope": "meta.mapping.json, meta.sequence.json",
+            "foreground": "var(x11-grey)"
+        },
+        {
+            "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
+            "foreground": "var(x11-grey)"
+        },
+        {
+            "scope": "punctuation.section.brackets",
+            "foreground": "var(x11-grey)"
+        },
+        {
+            "scope": "string.unquoted.makefile",
+            "foreground": "var(black)"
+        },
+        {
+            "scope": "source.makefile meta.function.body.makefile source.shell.embedded.makefile meta.function-call.identifier.shell variable.function.shell",
+            "foreground": "var(thunder)"
+        },
+        {
+            "scope": "source.makefile meta.function.body.makefile source.shell.embedded.makefile meta.function-call.arguments.shell",
+            "foreground": "var(thunder)"
+        },
+        {
+            "scope": "source.makefile meta.function.body.makefile source.shell.embedded.makefile meta.function-call.identifier.shell",
+            "foreground": "var(thunder)"
+        },
+        {
+            "scope": "source.makefile meta.string.makefile string.unquoted.makefile source.shell.embedded.makefile meta.function-call.arguments.shell meta.parameter.option.shell meta.string.shell string.quoted.double.shell",
+            "foreground": "var(moss)"
+        },
+        {
+            "scope": "source.makefile meta.string.makefile string.unquoted.makefile support.function.builtin.makefile",
+            "foreground": "var(thunder)"
+        },
+        {
+            "scope": "source.makefile meta.string.makefile string.unquoted.makefile source.shell.embedded.makefile meta.function-call.identifier.shell variable.function.shell",
+            "foreground": "var(thunder)"
+        },
+        {
+            "scope": "source.makefile meta.string.makefile string.unquoted.makefile source.shell.embedded.makefile meta.function-call.arguments.shell",
+            "foreground": "var(thunder)"
+        },
+        {
+            "scope": "source.makefile meta.string.makefile string.unquoted.makefile",
+            "foreground": "var(moss)"
         }
     ]
 }
