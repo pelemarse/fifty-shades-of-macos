@@ -19,7 +19,7 @@
 		// tabs set
 		{
 			"class": "tabset_control",
-			"content_margin": [0, 0, 0, 0],
+			"content_margin": [-1, 0, -1, 0],
 			"tab_overlap": 1,
 			"tab_width": 1000000,
 			"tab_min_width": 130,
