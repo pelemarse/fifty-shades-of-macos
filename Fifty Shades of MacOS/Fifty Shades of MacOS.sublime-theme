@@ -1129,7 +1129,7 @@
 		},
 		{
 			"class": "auto_complete_label",
-			"fg": "hsla(208, 2%, 78%, 0.50)",
+			"fg": "hsla(208, 2%, 78%, 0.05)",
 			"match_fg": "hsla(242, 2%, 40%, 1.00)",
 			"selected_fg": "hsla(0, 0%, 97%, 1.00)", //hsla(120, 0%, 29%, 1.00)
 			"selected_match_fg": "hsla(0, 0%, 100%, 1.00)", //hsla(120, 0%, 29%, 1.00)
