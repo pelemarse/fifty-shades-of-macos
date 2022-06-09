@@ -13,6 +13,7 @@ Syntax color schemes is on very basic level stage.
 me="$(whoami)"
 cd "/Users/$me/Library/Application Support/Sublime Text/Packages"
 git clone https://github.com/pelemarse/fifty-shades-of-macos.git
+mv fifty-shades-of-macos "Theme - Fifty Shades of MacOS"
 ```
 
 ### Recommended Sublime Text settings
