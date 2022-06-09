@@ -8,7 +8,7 @@ Syntax color schemes is on very basic level stage.
 
 [More Screenshots](../main/screenshots/screenshots.md)
 
-### Install on MacOS
+### Install on MacOS from Terminal
 ```console
 me="$(whoami)"
 cd "/Users/$me/Library/Application Support/Sublime Text/Packages"
