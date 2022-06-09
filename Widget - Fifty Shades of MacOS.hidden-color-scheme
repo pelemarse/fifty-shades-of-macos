@@ -1,60 +1,49 @@
 {
 	"name": "Fifty Shades of MacOS Widgets",
-	"variables":
-	{
-
-	},
+	"variables": {},
 	"globals":
 	{
-		"foreground": "hsla(120, 0%, 29%, 1.00)",
-		"background": "var(white)",
-		"caret": "hsla(120, 0%, 29%, 1.00)",
-		"invisibles": "color(var(dark_grey) a(0.5))",
-		"selection": "hsla(211, 99%, 85%, 1.00)",
-		"selection_border": "transparent",
-		"inactive_selection": "color(var(dark_grey) a(0.15))",
-		"inactive_selection_border": "transparent",
-		"bracket_contents_options": "stippled_underline",
+		"foreground": "hsla(0, 0%, 46%, 1.00)",
+		"background": "hsla(0, 0%, 100%, 1.00)",
+		"caret": "hsla(0, 0%, 46%, 1.00)",
+		"invisibles": "hsla(180, 2%, 83%, 1.00)",
+		"selection": "hsla(180, 4%, 95%, 1.00)",
+		"selection_border": "hsla(180, 4%, 95%, 1.00)",
+		"bracket_contents_options": "underline",
 	},
 	"rules":
 	[
 		{
 			"name": "Comment",
 			"scope": "comment",
-			"foreground": "var(medium_grey)",
-			"font_style": "italic"
+			"foreground": "hsla(127, 1%, 58%, 1.00)",
 		},
 		{
 			"name": "Keyword",
 			"scope": "keyword, storage",
-			"foreground": "var(blue)"
+			"foreground": "hsla(203, 98%, 42%, 1.00)"
 		},
 		{
 			"name": "Support",
 			"scope": "support.constant",
-			"foreground": "var(blue)",
-			"font_style": "italic"
+			"foreground": "hsla(203, 98%, 42%, 1.00)",
 		},
 		{
 			"name": "Keyword",
 			"scope": "keyword.operator",
-			"foreground": "var(red)"
+			"foreground": "hsla(0, 0%, 46%, 1.00)"
 		},
 		{
 			"scope": "constant",
-			"foreground": "var(orange)"
+			"foreground": "hsla(4, 100%, 66%, 1.00)"
 		},
 		{
 			"scope": "string",
-			"foreground": "var(green)"
-		},
-		{
-			"scope": "constant.character.escape",
-			"foreground": "var(purple)"
+			"foreground": "hsla(127, 1%, 58%, 1.00)"
 		},
 		{
 			"scope": "punctuation",
-			"foreground": "var(medium_grey)"
+			"foreground": "hsla(0, 0%, 75%, 1.00)"
 		}
 	]
 }
