@@ -8,6 +8,13 @@ Syntax color schemes is on very basic level stage.
 
 [More Screenshots](../main/screenshots/screenshots.md)
 
+### Install on MacOS
+```console
+me="$(whoami)"
+cd "/Users/$me/Library/Application Support/Sublime Text/Packages"
+git clone https://github.com/pelemarse/fifty-shades-of-macos.git
+```
+
 ### Recommended Sublime Text settings
 `Preferences.sublime-settings`
 ```json
