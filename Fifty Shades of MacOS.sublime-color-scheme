@@ -19,7 +19,7 @@
         "moss": "hsla(149, 100%, 26%, 1.00)",
         "mountain-mist": "hsla(127, 1%, 58%, 1.00)",
         "ecstasy": "hsla(25, 100%, 53%, 1.00)",
-        "lochmara": "hsla(203, 98%, 42%, 1.00)",
+        "bahama-blue": "hsla(203, 97%, 30%, 1.00)",
         "x11-grey": "hsla(0, 0%, 75%, 1.00)",
         "black-haze": "hsla(211, 3%, 97%, 1.00)"
     },
@@ -70,7 +70,7 @@
         },
         {
             "scope": "keyword",
-            "foreground": "var(lochmara)"
+            "foreground": "var(bahama-blue)"
         },
         {
             "scope": "punctuation.definition.annotation", // !!!!!!!!!!!
@@ -82,7 +82,7 @@
         },
         {
             "scope": "storage",
-            "foreground": "var(lochmara)"
+            "foreground": "var(bahama-blue)"
         },
         {
             "scope": "storage.type",
@@ -146,7 +146,7 @@
         },
         {
             "scope": "keyword.declaration.function",
-            "foreground": "var(lochmara)"
+            "foreground": "var(bahama-blue)"
         },
         {
             "scope": "punctuation.accessor.dot",
@@ -154,7 +154,7 @@
         },
         {
             "scope": "keyword.declaration",
-            "foreground": "var(lochmara)"
+            "foreground": "var(bahama-blue)"
         },
         {
             "scope": "punctuation.section.braces",
