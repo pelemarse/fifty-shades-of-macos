@@ -3,214 +3,299 @@
     "author": "Pele Marse",
     "variables":
     {
-        "white": "hsla(0, 0%, 100%, 1.00)",
-        "zero-black": "hsla(0, 0%, 0%, 1.00)",
-        "black": "hsla(225, 7%, 13%, 1.00)",
-        "sunset-orange": "hsla(4, 100%, 66%, 1.00)",
-        "supernova": "hsla(47, 100%, 50%, 1.00)",
-        "scarlet": "hsla(353, 100%, 57%, 1.00)",
-        "radical-red": "hsla(349, 91%, 62%, 1.00)",
-
-        "thunder": "hsla(0, 0%, 46%, 1.00)",
-        "mercury": "hsla(179, 2%, 90%, 1.00)",
-        "light-grey": "hsla(180, 2%, 83%, 1.00)",
-        "dark-grey": "hsla(0, 0%, 66%, 1.00)",
-        "concrete": "hsla(180, 4%, 95%, 1.00)",
-        "moss": "hsla(149, 100%, 26%, 1.00)",
-        "mountain-mist": "hsla(127, 1%, 58%, 1.00)",
-        "ecstasy": "hsla(25, 100%, 53%, 1.00)",
-        "lochmara": "hsla(203, 98%, 42%, 1.00)",
-        "x11-grey": "hsla(0, 0%, 75%, 1.00)",
-        "black-haze": "hsla(211, 3%, 97%, 1.00)"
+        "transparent": "hsla(0, 0%, 0%, 0.00)",
+        "black": "hsl(0,0%,0%)",
+        "white": "hsl(0,0%,100%)",
+        "gray-50": "hsl(204,45.5%,97.8%)",
+        "gray-100": "hsl(213,24.4%,91.2%)",
+        "gray-200": "hsl(212,15.9%,79%)",
+        "gray-300": "hsl(215,13.6%,68.2%)",
+        "gray-400": "hsl(216,12.7%,58.2%)",
+        "gray-500": "hsl(219,12.1%,46.9%)",
+        "gray-600": "hsl(225,15.1%,36.5%)",
+        "gray-700": "hsl(227,18.4%,28.8%)",
+        "gray-800": "hsl(229,24.3%,21.8%)",
+        "gray-900": "hsl(229,35%,15.7%)",
+        "gray2-100": "hsl(211, 3%, 97%)",
+        "blue-50": "hsl(204,100%,98%)",
+        "blue-100": "hsl(208,100%,92%)",
+        "blue-200": "hsl(213,97.8%,82%)",
+        "blue-300": "hsl(218,89.8%,73.1%)",
+        "blue-400": "hsl(224,80.4%,68%)",
+        "blue-500": "hsl(230,59.8%,58%)",
+        "blue-600": "hsl(231,47.6%,45.7%)",
+        "blue-700": "hsl(231,48.9%,36.1%)",
+        "blue-800": "hsl(229,50%,25.9%)",
+        "blue-900": "hsl(224,54.8%,16.5%)",
+        "cyan-50": "hsl(180,80%,96.1%)",
+        "cyan-100": "hsl(189,81.5%,87.3%)",
+        "cyan-200": "hsl(194,75.3%,71.4%)",
+        "cyan-300": "hsl(199,77.1%,60.6%)",
+        "cyan-400": "hsl(204,64.2%,52.9%)",
+        "cyan-500": "hsl(201,93.7%,37.3%)",
+        "cyan-600": "hsl(206,91.1%,30.8%)",
+        "cyan-700": "hsl(207,90.6%,25.1%)",
+        "cyan-800": "hsl(206,80.4%,18%)",
+        "cyan-900": "hsl(203,86%,11.2%)",
+        "green-50": "hsl(113,100%,96.5%)",
+        "green-100": "hsl(117,66.2%,87.3%)",
+        "green-200": "hsl(132,52.5%,68.6%)",
+        "green-300": "hsl(152,58.4%,48%)",
+        "green-400": "hsl(157,69.4%,38.4%)",
+        "green-500": "hsl(162,87.1%,27.3%)",
+        "green-600": "hsl(159,75%,22%)",
+        "green-700": "hsl(165,70.5%,17.3%)",
+        "green-800": "hsl(175,66.7%,12.9%)",
+        "green-900": "hsl(189,67.3%,9.6%)",
+        "yellow-50": "hsl(51,76%,95.1%)",
+        "yellow-100": "hsl(42,81.8%,84.9%)",
+        "yellow-200": "hsl(36,78.8%,70.4%)",
+        "yellow-300": "hsl(33,76.3%,57.1%)",
+        "yellow-400": "hsl(30,80.8%,47.1%)",
+        "yellow-500": "hsl(27,95.8%,37.5%)",
+        "yellow-600": "hsl(20,93.6%,30.8%)",
+        "yellow-700": "hsl(18,82.9%,25.3%)",
+        "yellow-800": "hsl(15,74%,19.6%)",
+        "yellow-900": "hsl(18,78.5%,12.7%)",
+        "yellow2-200": "hsl(51,100%,73%)",
+        "orange-50": "hsl(42,100%,96.7%)",
+        "orange-100": "hsl(34,96.9%,87.5%)",
+        "orange-200": "hsl(26,89.1%,74.9%)",
+        "orange-300": "hsl(21,88.3%,66.5%)",
+        "orange-400": "hsl(14,74.9%,59.4%)",
+        "orange-500": "hsl(10,58.1%,48.6%)",
+        "orange-600": "hsl(4,59.6%,38.8%)",
+        "orange-700": "hsl(357,61.5%,30.6%)",
+        "orange-800": "hsl(356,61.7%,22.5%)",
+        "orange-900": "hsl(357,65%,15.7%)",
+        "red-50": "hsl(18,100%,98%)",
+        "red-100": "hsl(9,88.9%,92.9%)",
+        "red-200": "hsl(2,90.1%,84.1%)",
+        "red-300": "hsl(357,92.2%,74.7%)",
+        "red-400": "hsl(351,79.8%,65.1%)",
+        "red-500": "hsl(344,59%,52.2%)",
+        "red-600": "hsl(338,70.8%,37.6%)",
+        "red-700": "hsl(336,73%,29%)",
+        "red-800": "hsl(328,70.9%,21.6%)",
+        "red-900": "hsl(327,78.4%,14.5%)",
+        "purple-50": "hsl(309,100%,98.6%)",
+        "purple-100": "hsl(313,82.4%,93.3%)",
+        "purple-200": "hsl(312,66.7%,82.4%)",
+        "purple-300": "hsl(304,59.4%,72%)",
+        "purple-400": "hsl(296,51%,62.4%)",
+        "purple-500": "hsl(290,40.6%,51.2%)",
+        "purple-600": "hsl(282,45.2%,40.8%)",
+        "purple-700": "hsl(274,49.7%,33.5%)",
+        "purple-800": "hsl(267,57%,26.5%)",
+        "purple-900": "hsl(266,70%,19.6%)",
+        "violet-50": "hsl(230,75%,98.4%)",
+        "violet-100": "hsl(240,78.6%,94.5%)",
+        "violet-200": "hsl(248,48.8%,83.9%)",
+        "violet-300": "hsl(254,51.6%,75.7%)",
+        "violet-400": "hsl(258,55.3%,68.4%)",
+        "violet-500": "hsl(261,45.2%,57.1%)",
+        "violet-600": "hsl(259,37.8%,44.1%)",
+        "violet-700": "hsl(258,42.2%,35.3%)",
+        "violet-800": "hsl(256,47.4%,26.9%)",
+        "violet-900": "hsl(248,52.9%,20%)"
     },
     "globals":
     {
-        "foreground": "var(thunder)",
+        "foreground": "var(gray-500)",
         "background": "var(white)",
-        "caret": "var(thunder)",
-        "invisibles": "var(light-grey)",
-        "line_highlight": "var(mercury)",
-        "selection": "var(concrete)",
-        "selection_border": "var(concrete)",
+        "caret": "var(gray-500)",
+        "invisibles": "var(gray-200)",
+        "line_highlight": "var(gray2-100)",
+        "selection": "var(gray-50)",
+        "selection_foreground": "var(gray-700)",
+        "selection_border": "var(gray-100)",
+        "selection_border_width": "0",
+        "inactive_selection": "var(gray-50)",
+        "inactive_selection_border": "var(gray-100)",
+        "inactive_selection_foreground": "var(gray-400)",
         "selection_corner_style": "square",
-        "misspelling": "var(sunset-orange)",
-        "active_guide": "var(black)",
-        "find_highlight_foreground": "var(zero-black)",
-        "find_highlight": "var(supernova)",
+        "selection_corner_radius": "round",
+        "misspelling": "var(red-400)",
+        "active_guide": "var(gray-900)",
+        "highlight": "var(gray-300)",
+        "find_highlight": "var(yellow2-200)",
+        "find_highlight_foreground": "var(gray-900)",
         "brackets_options": "underline",
-        "brackets_foreground": "var(black)",
+        "brackets_foreground": "var(gray-900)",
         "bracket_contents_options": "underline",
-        "bracket_contents_foreground": "var(black)",
-        "gutter_foreground": "var(dark-grey)",
+        "bracket_contents_foreground": "var(gray-900)",
+        "gutter": "var(background)",
+        "gutter_foreground": "var(gray-400)",
+        "gutter_foreground_highlight": "var(gray-700)",
         "tags_options": "stippled_underline",
-        "rulers": "var(mercury)"
+        "rulers": "var(gray-100)"
     },
     "rules":
     [
         {
             "scope": "comment",
-            "foreground": "var(mountain-mist)"
+            "foreground": "var(gray-200)"
         },
         {
             "scope": "string",
-            "foreground": "var(moss)"
+            "foreground": "var(green-500)"
         },
         {
             "scope": "constant.numeric",
-            "foreground": "var(ecstasy)"
+            "foreground": "var(orange-400)"
         },
         {
             "scope": "constant.language",
-            "foreground": "var(ecstasy)",
+            "foreground": "var(orange-400)",
             "font_style": "bold"
         },
         {
-            "scope": "constant, constant.character, constant.other", // !!!!!!!!!!!!!
-            "foreground": "var(thunder)"
+            "scope": "constant, constant.character, constant.other", // ?
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "keyword",
-            "foreground": "var(lochmara)"
+            "foreground": "var(blue-500)"
         },
         {
-            "scope": "punctuation.definition.annotation", // !!!!!!!!!!!
-            "foreground": "var(scarlet)"
+            "scope": "punctuation.definition.annotation", // ?
+            "foreground": "var(red-400)"
         },
         {
             "scope": "variable.other.dollar.only.js",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "storage",
-            "foreground": "var(lochmara)"
+            "foreground": "var(blue-500)"
         },
         {
             "scope": "storage.type",
-            "foreground": "var(thunder)",
+            "foreground": "var(gray-500)",
         },
         {
             "scope": "entity.name",
-            "foreground": "var(black)"
+            "foreground": "var(gray-900)"
         },
         {
             "scope": "entity.other.inherited-class",
-            "foreground": "var(black)"
+            "foreground": "var(gray-900)"
         },
         {
             "scope": "variable.parameter",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "variable.language",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "entity.name.tag",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "entity.other",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "variable.function",
-            "foreground": "var(black)"
+            "foreground": "var(gray-900)"
         },
         {
             "scope": "support.type, support.class",
-            "foreground": "var(thunder)",
+            "foreground": "var(gray-500)",
             "font_style": "none"
         },
         {
             "scope": "invalid",
             "foreground": "var(white)",
-            "background": "var(radical-red)"
+            "background": "var(red-400)"
         },
         {
             "scope": "invalid.deprecated",
             "foreground": "var(white)",
-            "background": "var(radical-red)"
+            "background": "var(red-400)"
         },
 
         {
             "scope": "variable.other, variable.declaration",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "meta.block, meta.type",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "punctuation.section.parens",
-            "foreground": "var(x11-grey)"
+            "foreground": "var(gray-200)"
         },
         {
             "scope": "keyword.declaration.function",
-            "foreground": "var(lochmara)"
+            "foreground": "var(blue-500)"
         },
         {
             "scope": "punctuation.accessor.dot",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "keyword.declaration",
-            "foreground": "var(lochmara)"
+            "foreground": "var(blue-500)"
         },
         {
             "scope": "punctuation.section.braces",
-            "foreground": "var(x11-grey)"
+            "foreground": "var(gray-200)"
         },
         {
             "scope": "markup.highlight.text.lsp, markup.highlight.read.lsp, markup.highlight.write.lsp",
-            "background": "var(black-haze)"
+            "background": "var(gray2-100)"
         },
         {
             "scope": "meta.mapping.json, meta.sequence.json",
-            "foreground": "var(x11-grey)"
+            "foreground": "var(gray-200)"
         },
         {
             "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
-            "foreground": "var(x11-grey)"
+            "foreground": "var(gray-200)"
         },
         {
             "scope": "punctuation.section.brackets",
-            "foreground": "var(x11-grey)"
+            "foreground": "var(gray-200)"
         },
         {
             "scope": "string.unquoted.makefile",
-            "foreground": "var(black)"
+            "foreground": "var(gray-900)"
         },
         {
             "scope": "source.makefile meta.function.body.makefile source.shell.embedded.makefile meta.function-call.identifier.shell variable.function.shell",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "source.makefile meta.function.body.makefile source.shell.embedded.makefile meta.function-call.arguments.shell",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "source.makefile meta.function.body.makefile source.shell.embedded.makefile meta.function-call.identifier.shell",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "source.makefile meta.string.makefile string.unquoted.makefile source.shell.embedded.makefile meta.function-call.arguments.shell meta.parameter.option.shell meta.string.shell string.quoted.double.shell",
-            "foreground": "var(moss)"
+            "foreground": "var(green-500)"
         },
         {
             "scope": "source.makefile meta.string.makefile string.unquoted.makefile support.function.builtin.makefile",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "source.makefile meta.string.makefile string.unquoted.makefile source.shell.embedded.makefile meta.function-call.identifier.shell variable.function.shell",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "source.makefile meta.string.makefile string.unquoted.makefile source.shell.embedded.makefile meta.function-call.arguments.shell",
-            "foreground": "var(thunder)"
+            "foreground": "var(gray-500)"
         },
         {
             "scope": "source.makefile meta.string.makefile string.unquoted.makefile",
-            "foreground": "var(moss)"
+            "foreground": "var(green-500)"
         }
     ]
 }
