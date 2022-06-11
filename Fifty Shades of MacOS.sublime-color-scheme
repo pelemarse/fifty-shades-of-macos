@@ -134,7 +134,7 @@
     [
         {
             "scope": "comment",
-            "foreground": "var(gray-200)"
+            "foreground": "var(gray-300)"
         },
         {
             "scope": "string",
