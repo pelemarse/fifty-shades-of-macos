@@ -1,5 +1,5 @@
-<img src="shot1.png" alt="Fifty Shades of MacOS Theme With Open Side Bar Screenshot" title="Fifty Shades of MacOS Theme Side Bar Preview">
-<img src="shot2.png" alt="Fifty Shades of MacOS Theme With Open Command Palette" title="Fifty Shades of MacOS Theme Command Palette Preview">
-<img src="shot3.png" alt="Fifty Shades of MacOS Theme With Open Hover Popup" title="Fifty Shades of MacOS Theme Hover Popup Preview">
-<img src="shot4.png" alt="Fifty Shades of MacOS Theme With Open Terminal" title="Fifty Shades of MacOS Theme Terminal Preview">
-<img src="shot5.png" alt="Fifty Shades of MacOS Theme With Open Autocomplete" title="Fifty Shades of MacOS Theme Autocomplete Preview">
+![Fifty Shades of MacOS Theme With Open Side Bar Screenshot](https://user-images.githubusercontent.com/29234307/173379425-d838b0b5-ebc2-4a27-bfa2-c5afe90c2e62.png)
+![Fifty Shades of MacOS Theme With Open Command Palette](https://user-images.githubusercontent.com/29234307/173379435-e96aca62-ad32-4b05-bb63-bc534847b724.png)
+![Fifty Shades of MacOS Theme With Open Hover Popup](https://user-images.githubusercontent.com/29234307/173379445-cb06debd-7936-4166-ba54-3e857912db3f.png)
+![Fifty Shades of MacOS Theme With Open Terminal](https://user-images.githubusercontent.com/29234307/173379451-7dd8a5e6-22bf-42d7-a68c-754785004848.png)
+![Fifty Shades of MacOS Theme With Open Autocomplete](https://user-images.githubusercontent.com/29234307/173379460-74667a3f-8c7a-49bf-87a0-00204f1f70f0.png)
