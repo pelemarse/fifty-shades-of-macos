@@ -6,7 +6,7 @@ Sublime Text 4 Dark and Light Theme[^1].
 
 ![alt text](https://user-images.githubusercontent.com/29234307/173379302-960e0dae-1c7e-49f0-9917-92dc63229f7e.png)
 
-[More Screenshots](../main/screenshots.md)
+[More Screenshots](https://github.com/pelemarse/fifty-shades-of-macos/wiki/Screenshots)
 
 ### Requirements
 - Minimum Sublime Text version 4075
