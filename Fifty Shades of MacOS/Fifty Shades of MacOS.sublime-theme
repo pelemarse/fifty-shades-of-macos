@@ -779,6 +779,18 @@
 			"color_scheme_tint": "hsla(0, 0%, 100%, 1.00)"
 
 		},
+		{
+			"class": "text_line_control",
+		 	"parents": [{"class": "panel_control console_panel"}],
+			"layer0.texture": "Theme - Fifty Shades of MacOS/textures/input.png",
+			"layer0.opacity": 1.0,
+			"layer0.tint": "hsla(0, 0%, 100%, 1.00)",
+			"layer0.inner_margin": [4, 4],
+			"content_margin": [6, 5, 6, 5],
+			"font.size": 12,
+			"color_scheme_tint": "hsla(0, 0%, 100%, 1.00)"
+
+		},
 		// Text input dropdown
 		{
 			"class": "dropdown_button_control",
