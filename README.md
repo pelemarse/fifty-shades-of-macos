@@ -1,12 +1,22 @@
 # Fifty Shades of MacOS
 
-Sublime Text 4 Dark and Light Theme. Tested only on the latest versions of MacOS (12.4) and Sublime Text 4 Dev Build (4134). Made for yourself, but maybe someone will be interested too.
+Sublime Text 4 Dark and Light Theme[^1].
 
-Syntax color schemes is on very basic level stage.
+[^1]: Currently, syntax color schemes are optimized only for the Go programming language and a few others.
 
-<img src="screenshot.png" alt="Alt text" title="Optional title">
+![alt text](https://user-images.githubusercontent.com/29234307/173379302-960e0dae-1c7e-49f0-9917-92dc63229f7e.png)
 
 [More Screenshots](../main/screenshots/screenshots.md)
+
+### Requirements
+- Minimum Sublime Text version 4075
+
+### Tested
+| OS | Version | Test Status |
+| --- | --- | --- |
+| MacOS | 12.4 | Tested |
+| Windows |  | Not Tested |
+| Linux |  | Not Tested |
 
 ### Install on MacOS from Terminal
 ```console
