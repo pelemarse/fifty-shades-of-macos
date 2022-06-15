@@ -10,6 +10,7 @@ Sublime Text 4 Dark and Light Theme[^1].
 
 ### Requirements
 - Minimum Sublime Text version 4075
+- SF Mono Font - [Download from Apple Developer Fonts Page](https://developer.apple.com/fonts/)
 
 ### Tested
 | OS | Version | Test Status |
