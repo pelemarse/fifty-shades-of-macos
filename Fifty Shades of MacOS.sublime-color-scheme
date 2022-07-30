@@ -97,7 +97,8 @@
         "violet-600": "hsl(259,37.8%,44.1%)",
         "violet-700": "hsl(258,42.2%,35.3%)",
         "violet-800": "hsl(256,47.4%,26.9%)",
-        "violet-900": "hsl(248,52.9%,20%)"
+        "violet-900": "hsl(248,52.9%,20%)",
+        "string": "var(green-500)"
     },
     "globals":
     {
@@ -138,7 +139,7 @@
         },
         {
             "scope": "string",
-            "foreground": "var(green-500)"
+            "foreground": "var(string)"
         },
         {
             "scope": "constant.numeric",
@@ -296,6 +297,10 @@
         {
             "scope": "source.makefile meta.string.makefile string.unquoted.makefile",
             "foreground": "var(green-500)"
+        },
+        {
+            "scope": "markup.underline.link",
+            "foreground": "var(string)",
         }
     ]
 }

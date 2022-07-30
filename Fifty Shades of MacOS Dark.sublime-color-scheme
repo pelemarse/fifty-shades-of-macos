@@ -21,7 +21,8 @@
 		"radical-red": "hsla(349, 91%, 62%, 1.00)",
 		"dark-grey": "hsla(0, 0%, 34%, 1.00)",
 		"tuatara": "hsla(0, 0%, 20%, 1.00)",
-		"shark": "hsla(179, 1%, 22%, 1.00)"
+		"shark": "hsla(179, 1%, 22%, 1.00)",
+		"string": "var(de-york)"
 	},
 	"globals":
 	{
@@ -53,7 +54,7 @@
 		},
 		{
 			"scope": "string",
-			"foreground": "var(de-york)"
+			"foreground": "var(string)"
 		},
 		{
 			"scope": "constant.numeric",
@@ -211,6 +212,10 @@
 		{
 			"scope": "source.makefile meta.string.makefile string.unquoted.makefile",
 			"foreground": "var(de-york)"
+		},
+		{
+			"scope": "markup.underline.link",
+			"foreground": "var(string)",
 		}
 	]
 }
