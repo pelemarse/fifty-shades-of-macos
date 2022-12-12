@@ -44,7 +44,8 @@
 		"bracket_contents_foreground": "var(white)",
 		"gutter_foreground": "var(steel)",
 		"tags_options": "stippled_underline",
-		"rulers": "var(shark)"
+		"rulers": "var(shark)",
+		"fold_marker":"var(steel-gray)"
 	},
 	"rules":
 	[
@@ -216,6 +217,110 @@
 		{
 			"scope": "markup.underline.link",
 			"foreground": "var(string)",
+		},
+		{
+			"scope": "punctuation.definition.heading.begin.markdown, punctuation.definition.heading.end.markdown",
+			"foreground": "var(steel-gray)",
+		},
+		{
+			"scope": "text.html.markdown",
+			"foreground": "var(magnesium)",
+		},
+		{
+			"scope": "meta.separator.thematic-break.markdown",
+			"foreground": "var(white)",
+		},
+		{
+			"scope": "markup.bold.markdown",
+			"foreground": "var(white)",
+		},
+		{
+			"scope": "markup.italic.markdown",
+			"foreground": "var(white)",
+			"font_style": "italic"
+		},
+		{
+			"scope": "punctuation.definition.italic.begin.markdown, punctuation.definition.italic.end.markdown",
+			"foreground": "var(steel-gray)",
+		},
+		{
+			"scope": "punctuation.definition.bold.begin.markdown, punctuation.definition.bold.end.markdown",
+			"foreground": "var(steel-gray)",
+		},
+		{
+			"scope": "punctuation.definition.strikethrough.begin.markdown, punctuation.definition.strikethrough.end.markdown",
+			"foreground": "var(steel-gray)",
+		},
+		{
+			"scope": "markup.strikethrough.markdown-gfm",
+			"foreground": "var(magnesium)"
+		},
+		{
+			"scope": "punctuation.definition.blockquote.markdown",
+			"foreground": "var(steel-gray)"
+		},
+		{
+			"scope": "punctuation.definition.list_item.markdown",
+			"foreground": "var(steel-gray)"
+		},
+		{
+			"scope": "punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown",
+			"foreground": "var(steel-gray)"
+		},
+		{
+			"scope": "punctuation.definition.raw.code-fence.begin.markdown, punctuation.definition.raw.code-fence.end.markdown",
+			"foreground": "var(steel-gray)"
+		},
+		{
+			"scope": "punctuation.definition.link.begin.markdown, punctuation.definition.link.end.markdown",
+			"foreground": "var(steel-gray)"
+		},
+		{
+			"scope": "punctuation.definition.metadata.begin.markdown, punctuation.definition.metadata.end.markdown",
+			"foreground": "var(steel-gray)"
+		},
+		{
+			"scope": "meta.link.inline.description.markdown",
+			"foreground": "var(baby-blue-eyes)"
+		},
+		{
+			"scope": "markup.underline.link.markdown",
+			"foreground": "var(magnesium)",
+			"font_style": "underline"
+		},
+		{
+			"scope": "markup.underline.link.markdown-gfm",
+			"foreground": "var(magnesium)",
+			"font_style": "underline"
+		},
+		{
+			"scope": "punctuation.definition.image.begin.markdown, punctuation.definition.image.end.markdown",
+			"foreground": "var(steel-gray)"
+		},
+		{
+			"scope": "markup.underline.link.image.markdown",
+			"foreground": "var(magnesium)",
+			"font_style": "underline"
+		},
+		{
+			"scope": "markup.raw.inline.markdown",
+			"foreground": "var(athens-gray)"
+		},
+		{
+			"scope": "punctuation.definition.reference.begin.markdown, punctuation.definition.reference.end.markdown",
+			"foreground": "var(steel-gray)"
+		},
+		{
+			"scope": "entity.name.reference.link.markdown",
+			"foreground": "var(magnesium)"
+		},
+		{
+			"scope": "meta.link.reference.description.markdown",
+			"foreground": "var(magnesium)"
+		},
+		{
+			"scope": "constant.other.language-name.markdown",
+			"foreground": "var(steel-gray)"
 		}
 	]
 }
